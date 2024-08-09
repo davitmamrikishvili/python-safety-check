@@ -8,6 +8,9 @@ inputs:
   scan_requirements_file_only:
     description: Set true to scan required python packages without installing them.
     default: 'false'
+  api_key:
+    description: Safety api key.
+    default: ''
 branding:
   icon: 'shield'
   color: 'green'
